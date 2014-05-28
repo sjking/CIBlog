@@ -1,0 +1,53 @@
+#post_comment label {
+  /* text-align: right; */
+  color: #444;
+}
+
+#post_comment p {
+  color: red;
+}
+
+body p {
+  color: red;
+}
+
+
+
+#post_comment label {
+  float: left;
+  text-align: right;
+  width: 6em;
+  margin-right: 1em;
+}
+
+#post_comment .submit {
+  margin-left: 7em;
+}
+
+/*
+#post_comment label.text_area {
+  color: red;
+  float: left;
+  text-align: right;
+  width: 6em;
+  margin-right: 1em;
+  
+}
+
+#post_comment label.text_field {
+  color: #ccc;
+  float: left;
+  text-align: right;
+  width: 6em;
+  margin-right: 1em;
+  
+}
+
+#post_comment {
+  text-align: left;
+}
+
+textarea#text {
+  color: blue;
+}
+*/
