@@ -1,10 +1,10 @@
 # CIBlog
 
-A blogging engine built using the (CodeIniter)[http://ellislab.com/codeigniter] 
+A blogging engine built using the [CodeIniter](http://ellislab.com/codeigniter) 
 PHP framework.
 
-# Installation
+## Installation
 
-# Testing
+## Testing
 
-# Usage
+## Usage
