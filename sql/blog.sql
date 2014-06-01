@@ -1,9 +1,9 @@
-DROP TABLE news_thumbnail;
-DROP TABLE news_comment; 
-DROP TABLE header_image;
-DROP TABLE news_image;
-DROP TABLE news;
-DROP TABLE captcha;
+DROP TABLE IF EXISTS news_thumbnail;
+DROP TABLE IF EXISTS news_comment; 
+DROP TABLE IF EXISTS header_image;
+DROP TABLE IF EXISTS news_image;
+DROP TABLE IF EXISTS news;
+DROP TABLE IF EXISTS captcha;
 
 CREATE TABLE news (
     id INT(11) NOT NULL AUTO_INCREMENT,

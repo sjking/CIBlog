@@ -49,8 +49,8 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'cyborg';
-$db['default']['password'] = 'cyborg';
+$db['default']['username'] = 'dev';
+$db['default']['password'] = '';
 $db['default']['database'] = 'blog';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
