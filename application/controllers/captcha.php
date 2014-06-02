@@ -24,14 +24,14 @@ class Captcha extends CI_Controller
         $form_data = $this->session->flashdata('form_data');
         
         $vals = array (
-            'img_path' => $_SERVER["DOCUMENT_ROOT"] . '/captcha/',
+            'img_path' => $_SERVER["DOCUMENT_ROOT"]  . '/CIBlog/captcha/',
             'img_url' => base_url() . 'captcha/',
-            'font_path' => $_SERVER["DOCUMENT_ROOT"] . '/fonts/DejaVuSansMono.ttf',
+            'font_path' => $_SERVER["DOCUMENT_ROOT"] . '/CIBlog/fonts/DejaVuSansMono.ttf',
             'img_width' => '200',
             'img_height' => '60',
             'expiration' => 10
         );
-        
+
         $cap = create_captcha($vals);
 
         $data['cap'] = $cap;

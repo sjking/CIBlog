@@ -58,6 +58,10 @@ site. The line 'AllowOverride All' was changed from 'AllowOverride None'.
 
 Captcha is used to validate comments from site visistors, and to filter out spam from robots.
 
+Install the gd image library. On Ubuntu:
+
+    $ apt-get install php5-gd
+
 ## Testing
 
 Populate the site with sample postings:
